@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+  flex-direction: row;
+  background-color: #b6b6b6;
+}
+
+.containerLogin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.containerLeft {
+  background-color: #fff;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.containerRight {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #b6b6b6;
+  border-radius: 20px 0 0 20px;
+}
+
+.logoLogin {
+  max-width: 80%;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.descriptionLogin {
+  font-size: 1.2em;
+  /* margin-bottom: 20px; */
+  width: 80%;
+  text-align: center;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.inputLogin {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btnLogin {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header {
+  width: 75%;
+  height: 5rem;
+  right: 5vh;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  top: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcom-message {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logout-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sidebar {
+  width: 15rem;
+  height: 80vh;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  top: 10vh;
+  left: 10px;
+}
+
+.logoSidebar {
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+.sidebarMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  list-style: none;
+}
+
+.btnSidebar {
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnSidebar:hover {
+  text-decoration: underline;
+}
+
+.btnSidebarLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.content {
+  background-color: #fff;
+  width: 75%;
+  height: 80%;
+  right: 5vh;
+  bottom: 5%;
+  position: absolute;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentTitle {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contentForm {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputForm {
+  width: 40%;
+  margin: 10px 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btnForm {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cabecalhoTabela {
+  padding: 10px;
+  border-bottom: 1px solid red;
+}
+
+.celulasTabela {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tabelaSorteios {
+  width: 90%;
+}
